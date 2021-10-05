@@ -12,9 +12,11 @@ namespace Fifteen_game
 {
     public partial class FormGame15 : Form
     {
+        Game game;
         public FormGame15()
         {
             InitializeComponent();
+            game = new Game(4);
         }
 
         private void button0_Click(object sender, EventArgs e)
@@ -47,6 +49,16 @@ namespace Fifteen_game
             }
         }
 
+        private void menu_start_Click(object sender, EventArgs e)
+        {
+            game.start();
+            reflesh();
+        }
+        private void reflesh()
+        {
+            for (int position = 0; position < 16; position++)
+                button(position).Text = game.get_number(position).ToString();
+        }
     }
 }
 
