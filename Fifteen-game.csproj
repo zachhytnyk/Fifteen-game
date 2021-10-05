@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Fifteen_game</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Facebook-публикация 940x788  пикс.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>

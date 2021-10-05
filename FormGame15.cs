@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fifteen_game
 {
-    public partial class Form1 : Form
+    public partial class FormGame15 : Form
     {
-        public Form1()
+        public FormGame15()
         {
             InitializeComponent();
         }

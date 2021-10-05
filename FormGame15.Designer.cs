@@ -1,7 +1,7 @@
 ﻿
 namespace Fifteen_game
 {
-    partial class Form1
+    partial class FormGame15
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,15 +29,18 @@ namespace Fifteen_game
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGame15));
             this.SuspendLayout();
             // 
-            // Form1
+            // FormGame15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 548);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FormGame15";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Пятнашки";
             this.ResumeLayout(false);
 
         }
