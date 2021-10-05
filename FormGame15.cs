@@ -17,5 +17,9 @@ namespace Fifteen_game
             InitializeComponent();
         }
 
+        private void button0_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
