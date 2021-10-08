@@ -78,24 +78,25 @@ namespace Fifteen_game
             this.tableLayoutPanel.Controls.Add(this.button1, 1, 0);
             this.tableLayoutPanel.Controls.Add(this.button0, 0, 0);
             this.tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel.Location = new System.Drawing.Point(0, 24);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(0, 30);
+            this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 4;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(520, 414);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(594, 554);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // button15
             // 
             this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button15.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(398, 320);
-            this.button15.Margin = new System.Windows.Forms.Padding(10);
+            this.button15.Location = new System.Drawing.Point(456, 428);
+            this.button15.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(111, 83);
+            this.button15.Size = new System.Drawing.Size(126, 112);
             this.button15.TabIndex = 15;
             this.button15.Tag = "15";
             this.button15.Text = "-";
@@ -106,10 +107,10 @@ namespace Fifteen_game
             // 
             this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button14.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(269, 320);
-            this.button14.Margin = new System.Windows.Forms.Padding(10);
+            this.button14.Location = new System.Drawing.Point(308, 428);
+            this.button14.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(108, 83);
+            this.button14.Size = new System.Drawing.Size(125, 112);
             this.button14.TabIndex = 14;
             this.button14.Tag = "14";
             this.button14.Text = "-";
@@ -120,10 +121,10 @@ namespace Fifteen_game
             // 
             this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button13.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(140, 320);
-            this.button13.Margin = new System.Windows.Forms.Padding(10);
+            this.button13.Location = new System.Drawing.Point(160, 428);
+            this.button13.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(108, 83);
+            this.button13.Size = new System.Drawing.Size(125, 112);
             this.button13.TabIndex = 13;
             this.button13.Tag = "13";
             this.button13.Text = "-";
@@ -134,10 +135,10 @@ namespace Fifteen_game
             // 
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(11, 320);
-            this.button12.Margin = new System.Windows.Forms.Padding(10);
+            this.button12.Location = new System.Drawing.Point(12, 428);
+            this.button12.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(108, 83);
+            this.button12.Size = new System.Drawing.Size(125, 112);
             this.button12.TabIndex = 12;
             this.button12.Tag = "12";
             this.button12.Text = "-";
@@ -148,10 +149,10 @@ namespace Fifteen_game
             // 
             this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button11.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(398, 217);
-            this.button11.Margin = new System.Windows.Forms.Padding(10);
+            this.button11.Location = new System.Drawing.Point(456, 290);
+            this.button11.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(111, 82);
+            this.button11.Size = new System.Drawing.Size(126, 111);
             this.button11.TabIndex = 11;
             this.button11.Tag = "11";
             this.button11.Text = "-";
@@ -162,10 +163,10 @@ namespace Fifteen_game
             // 
             this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button10.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(269, 217);
-            this.button10.Margin = new System.Windows.Forms.Padding(10);
+            this.button10.Location = new System.Drawing.Point(308, 290);
+            this.button10.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(108, 82);
+            this.button10.Size = new System.Drawing.Size(125, 111);
             this.button10.TabIndex = 10;
             this.button10.Tag = "10";
             this.button10.Text = "-";
@@ -176,10 +177,10 @@ namespace Fifteen_game
             // 
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button9.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(140, 217);
-            this.button9.Margin = new System.Windows.Forms.Padding(10);
+            this.button9.Location = new System.Drawing.Point(160, 290);
+            this.button9.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(108, 82);
+            this.button9.Size = new System.Drawing.Size(125, 111);
             this.button9.TabIndex = 9;
             this.button9.Tag = "9";
             this.button9.Text = "-";
@@ -190,10 +191,10 @@ namespace Fifteen_game
             // 
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(11, 217);
-            this.button8.Margin = new System.Windows.Forms.Padding(10);
+            this.button8.Location = new System.Drawing.Point(12, 290);
+            this.button8.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(108, 82);
+            this.button8.Size = new System.Drawing.Size(125, 111);
             this.button8.TabIndex = 8;
             this.button8.Tag = "8";
             this.button8.Text = "-";
@@ -204,10 +205,10 @@ namespace Fifteen_game
             // 
             this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button7.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(398, 114);
-            this.button7.Margin = new System.Windows.Forms.Padding(10);
+            this.button7.Location = new System.Drawing.Point(456, 152);
+            this.button7.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(111, 82);
+            this.button7.Size = new System.Drawing.Size(126, 111);
             this.button7.TabIndex = 7;
             this.button7.Tag = "7";
             this.button7.Text = "-";
@@ -218,10 +219,10 @@ namespace Fifteen_game
             // 
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(269, 114);
-            this.button6.Margin = new System.Windows.Forms.Padding(10);
+            this.button6.Location = new System.Drawing.Point(308, 152);
+            this.button6.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(108, 82);
+            this.button6.Size = new System.Drawing.Size(125, 111);
             this.button6.TabIndex = 6;
             this.button6.Tag = "6";
             this.button6.Text = "-";
@@ -232,10 +233,10 @@ namespace Fifteen_game
             // 
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button5.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(140, 114);
-            this.button5.Margin = new System.Windows.Forms.Padding(10);
+            this.button5.Location = new System.Drawing.Point(160, 152);
+            this.button5.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(108, 82);
+            this.button5.Size = new System.Drawing.Size(125, 111);
             this.button5.TabIndex = 5;
             this.button5.Tag = "5";
             this.button5.Text = "-";
@@ -246,10 +247,10 @@ namespace Fifteen_game
             // 
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(11, 114);
-            this.button4.Margin = new System.Windows.Forms.Padding(10);
+            this.button4.Location = new System.Drawing.Point(12, 152);
+            this.button4.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 82);
+            this.button4.Size = new System.Drawing.Size(125, 111);
             this.button4.TabIndex = 4;
             this.button4.Tag = "4";
             this.button4.Text = "-";
@@ -260,10 +261,10 @@ namespace Fifteen_game
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(398, 11);
-            this.button3.Margin = new System.Windows.Forms.Padding(10);
+            this.button3.Location = new System.Drawing.Point(456, 14);
+            this.button3.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 82);
+            this.button3.Size = new System.Drawing.Size(126, 111);
             this.button3.TabIndex = 3;
             this.button3.Tag = "3";
             this.button3.Text = "-";
@@ -274,10 +275,10 @@ namespace Fifteen_game
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(269, 11);
-            this.button2.Margin = new System.Windows.Forms.Padding(10);
+            this.button2.Location = new System.Drawing.Point(308, 14);
+            this.button2.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 82);
+            this.button2.Size = new System.Drawing.Size(125, 111);
             this.button2.TabIndex = 2;
             this.button2.Tag = "2";
             this.button2.Text = "-";
@@ -288,10 +289,10 @@ namespace Fifteen_game
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(140, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(10);
+            this.button1.Location = new System.Drawing.Point(160, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 82);
+            this.button1.Size = new System.Drawing.Size(125, 111);
             this.button1.TabIndex = 1;
             this.button1.Tag = "1";
             this.button1.Text = "-";
@@ -302,10 +303,10 @@ namespace Fifteen_game
             // 
             this.button0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button0.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button0.Location = new System.Drawing.Point(11, 11);
-            this.button0.Margin = new System.Windows.Forms.Padding(10);
+            this.button0.Location = new System.Drawing.Point(12, 14);
+            this.button0.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.button0.Name = "button0";
-            this.button0.Size = new System.Drawing.Size(108, 82);
+            this.button0.Size = new System.Drawing.Size(125, 111);
             this.button0.TabIndex = 0;
             this.button0.Tag = "0";
             this.button0.Text = "-";
@@ -314,33 +315,37 @@ namespace Fifteen_game
             // 
             // menu
             // 
+            this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menu_start});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(520, 24);
+            this.menu.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
+            this.menu.Size = new System.Drawing.Size(594, 30);
             this.menu.TabIndex = 1;
             this.menu.Text = "menuStrip1";
             // 
             // menu_start
             // 
             this.menu_start.Name = "menu_start";
-            this.menu_start.Size = new System.Drawing.Size(86, 20);
+            this.menu_start.Size = new System.Drawing.Size(107, 24);
             this.menu_start.Text = "Начать игру";
             this.menu_start.Click += new System.EventHandler(this.menu_start_Click);
             // 
             // FormGame15
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 438);
+            this.ClientSize = new System.Drawing.Size(594, 584);
             this.Controls.Add(this.tableLayoutPanel);
             this.Controls.Add(this.menu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menu;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormGame15";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Пятнашки";
+            this.Load += new System.EventHandler(this.FormGame15_Load);
             this.tableLayoutPanel.ResumeLayout(false);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();

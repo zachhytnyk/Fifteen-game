@@ -18,12 +18,20 @@ namespace Fifteen_game
             InitializeComponent();
             game = new Game(4);
         }
-
         private void button0_Click(object sender, EventArgs e)
         {
-            int position=Convert.ToInt16(((Button)sender).Tag);
-            button(position).Text = position.ToString();
+            int position = Convert.ToInt16(((Button)sender).Tag);
+            game.shift(position);
+            if (game.check_number())
+            {
+                reflesh();
+                MessageBox.Show("Вы победили","Поздравление");
+                start_game();
+            }    
+
+            reflesh();
         }
+
 
         private Button button(int position)
         {
@@ -48,21 +56,43 @@ namespace Fifteen_game
                 default: return null;
             }
         }
-
+        private void FormGame15_Load(object sender, EventArgs e)
+        {
+            start_game();
+        }
         private void menu_start_Click(object sender, EventArgs e)
         {
+            start_game();
+        }
+        private void start_game()
+        {
             game.start();
+            for (int i = 0; i <20; i++)
+                game.shift_random();
+
+
+
             reflesh();
         }
         private void reflesh()
         {
             for (int position = 0; position < 16; position++)
-                button(position).Text = game.get_number(position).ToString();
+            {
+                int nr = game.get_number(position);
+                button(position).Text = nr.ToString();
+                button(position).Visible = (nr > 0);
+
+            }
+
+
         }
     }
 }
 
-            
+
+
+
+
 
 
 
