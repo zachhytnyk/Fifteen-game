@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Fifteen_game
 {
@@ -77,10 +75,6 @@ namespace Fifteen_game
             return true;
         }
 
-
-
-
-
         public int get_number(int position)
         {
             int x, y;
@@ -108,8 +102,5 @@ namespace Fifteen_game
             x = position % size;
             y = position / size;
         }
-
-
-
     }
 }

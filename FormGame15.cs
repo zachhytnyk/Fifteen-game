@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Fifteen_game
@@ -28,10 +21,8 @@ namespace Fifteen_game
                 MessageBox.Show("Вы победили","Поздравление");
                 start_game();
             }    
-
             reflesh();
         }
-
 
         private Button button(int position)
         {
@@ -69,9 +60,6 @@ namespace Fifteen_game
             game.start();
             for (int i = 0; i <20; i++)
                 game.shift_random();
-
-
-
             reflesh();
         }
         private void reflesh()
@@ -81,10 +69,7 @@ namespace Fifteen_game
                 int nr = game.get_number(position);
                 button(position).Text = nr.ToString();
                 button(position).Visible = (nr > 0);
-
             }
-
-
         }
     }
 }
